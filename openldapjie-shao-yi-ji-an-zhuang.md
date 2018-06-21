@@ -2,7 +2,7 @@
 
 ## 介绍
 
-OpenLDAP是[轻型目录访问协议](https://baike.baidu.com/item/轻型目录访问协议)（Lightweight Directory Access Protocol，LDAP）的自由和[开源](https://baike.baidu.com/item/开源)的实现，在其OpenLDAP许可证下发行，并已经被包含在众多流行的Linux发行版中。相对应的是微软的AD（\_Windows \_ActiveDirectories）。实现的也是AD相对简化的功能。虽然相对AD简化，轻量，但并不意味着其功能弱。目前市场上很多商业产品都是通过内置ldap，从而实现统一的用户管理。
+OpenLDAP是[轻型目录访问协议](https://baike.baidu.com/item/轻型目录访问协议)（Lightweight Directory Access Protocol，LDAP）的自由和[开源](https://baike.baidu.com/item/开源)的实现，在其OpenLDAP许可证下发行，并已经被包含在众多流行的Linux发行版中。相对应的是微软的AD（Windows Active Directories）。实现的也是AD相对简化的功能。虽然相对AD简化，轻量，但并不意味着其功能弱。目前市场上很多商业产品都是通过内置ldap，从而实现统一的用户管理。
 
 openLDAP可以与VPN结合实现统一接入认证，可以与堡垒机结合实现账号管理与审计，可以与系统结合从而保障系统安全。本书的多处章节的实例都会使用到ldap。
 
