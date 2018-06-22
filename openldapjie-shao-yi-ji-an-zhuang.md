@@ -237,3 +237,17 @@ success
 
 服务端的配置已经完成。接下来你就可以使用任意的ldap客户端连接。端口为389，使用root DN`cn=root,dc=example,dc=com`进行登录。
 
+### 使用docker方式直接安装
+
+```
+https://github.com/osixia/docker-openldap
+```
+
+```
+# docker run  --env LDAP_ORGANISATION="tyun" --env LDAP_DOMAIN="tyun.cn" --env LDAP_ADMIN_PASSWORD="ldap_passwd" --volume /data/slapd/database:/var/lib/ldap --volume /data/slapd/config:/etc/ldap/slapd.d --detach  -it  -p 389:389 -p 636:636 osixia/openldap:1.2.0
+```
+
+### 
+
+
+
